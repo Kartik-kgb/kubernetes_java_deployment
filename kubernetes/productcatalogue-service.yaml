@@ -31,7 +31,9 @@ spec:
     spec:
       containers:
       - name: productcatalogue
+
         image: karthikv10/productcatalogue:latest
+
         ports:
         - containerPort: 8020
         livenessProbe:
